@@ -1,0 +1,272 @@
+
+body{
+    margin: 10px;
+    background-color: rgb(241, 248, 203);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.encabezado{
+    background: linear-gradient(rgb(250, 163, 250), rgb(185, 99, 235),#bb6afa
+    );
+    height: 125px;;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+}
+.textpri{
+    font-size: 40px;
+    color:white;
+    text-shadow: 0 0 5px rgb(251, 6, 214),0 0 10px rgb(99, 1, 126), 0 0 40px rgb(102, 1, 107), 0 0 60px rgb(187, 32, 169);
+}
+.encabezado h3{
+    position: relative;
+    top:-25px;
+    color:black;
+    text-shadow: 0 0 5px rgb(246, 162, 233),0 0 10px rgb(222, 110, 253), 0 0 40px rgb(191, 40, 199), 0 0 60px rgb(220, 92, 255);
+
+}
+.vale{
+    background-color: rgb(219, 177, 235);
+    height:535px;
+    width: 520px;
+    position: absolute;
+    top: 380px;
+    left: 1230px;;
+    transform: translate(-49%, -49%);
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(16, 15, 15);
+    box-shadow: 0 30px 100px -30px rgb(243, 242, 244);
+}
+.vale span{
+    font-size: 25px;
+    text-align: center;
+}
+.vale input{
+    font-family: 'Times New Roman', Times, serif;
+    width:65%;
+    color: rgb(11, 11, 11);
+    font-size: 1rem;
+    border-style: solid;
+    border: purple;
+    padding: .6em .3em;
+    border-bottom:1px solid rgb(8, 8, 8) ;
+}
+.vale{
+margin-top: 3em;
+display: grid;
+gap: 1.5em;
+}
+
+.vale label{
+    position: absolute;
+    left: 10px;
+}
+.vale button{
+    font-family:monospace;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    background-color: rgb(162, 28, 219);
+    color: black;
+    border-radius:3px;
+    border-style: solid;
+    border-color:black
+}
+.vale button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px violet, 0 0 10px violet, 0 0 40px violet, 0 0 60px violet;
+}
+.trata{
+    background: linear-gradient(rgb(153, 226, 217),rgb(130, 238, 218), rgb(214, 110, 240), rgb(5, 143, 150));
+    color: black;
+    width:950px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    position: absolute;
+    left: 10px;
+} 
+.trata h2{
+    text-align: center;
+}
+.trata p{
+    text-align: center;
+}
+.trata li{
+    text-align: center;
+}
+.trata img{
+    align-items: center;
+}
+.Equipo{
+    background: linear-gradient(rgb(105, 236, 221),rgb(51, 206, 178), rgb(110, 240, 140), rgb(184, 177, 29));
+    border-radius: 10px;
+    position: relative;
+    top: 560px;
+ 
+    color: white;
+}
+.general{
+    display: flex;
+}
+.t1{
+    margin-top: 10px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}  
+.conocimiento{
+    position: absolute;
+    top: 1050px;
+    width: 1495px;
+    height: 1200px;
+}
+
+.sabias{
+    width: 750px;
+    height: 600px;
+    text-align: center;
+}
+.sabias h3{
+    font-size: 25px;
+    color: white;
+    text-shadow: 0 0 5px rgb(251, 75, 6),0 0 10px rgb(251, 179, 9), 0 0 40px rgb(236, 180, 27), 0 0 60px rgb(216, 214, 45);
+
+}
+
+.consecuencias{
+    width: 600px;
+    height: 600px;
+    text-shadow: 0 0 5px rgb(231, 251, 6),0 0 10px rgb(228, 237, 64), 0 0 40px rgb(232, 236, 27), 0 0 60px rgb(216, 214, 45);
+
+}
+.consecuencias h3{
+    color: white;
+}
+.completo {
+    border-radius: 25px;
+    width: 1495px;
+    display: inline-flex;
+    position: absolute;
+    top: 25px;
+    left: 3px;
+    background: linear-gradient(rgb(232, 156, 3),rgb(238, 202, 130), rgb(240, 136, 110),orange, rgb(246, 205, 71));
+
+    
+}
+.ejemplos{
+    display:inline-flex;
+    text-align: center;
+}
+.ok{
+    width:300px;
+    height: 300px;
+    color: white;
+    background-color: black;
+}
+.ok1{
+    position: absolute;
+    height: 250px;
+
+    width: 300px;
+    top: 300px;
+    right:445px;
+    color: white;
+    background-color: rgb(9, 9, 9);
+}
+.ok2{
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 300px;
+    right: 145px;
+    color: white;
+}
+.wire{
+    position: absolute;
+    top: 640px;
+    left: 10px;
+    background: linear-gradient(rgb(244, 186, 93),rgb(58, 90, 179), rgb(64, 93, 238),rgb(121, 154, 245), rgb(112, 183, 238));
+
+    border-radius:10px;
+    color: white;
+    height: 625px;
+}
+.a{
+    margin-left: 35px;
+    margin-right: 35px;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow:  0 0 5px rgb(251, 6, 96),0 0 10px rgb(237, 64, 127), 0 0 20px rgb(236, 27, 145), 0 0 40px rgb(216, 45, 125);
+}
+.b{
+    margin-left: 35px;
+    margin-right: 35px;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow:  0 0 5px rgb(6, 251, 116),0 0 10px rgb(64, 237, 199), 0 0 20px rgb(27, 236, 156), 0 0 40px rgb(45, 216, 168);
+
+}
+.c{
+    margin-left: 35px;
+    margin-right: 35px;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow:  0 0 5px rgb(244, 243, 244),0 0 10px rgb(251, 249, 251), 0 0 20px rgb(236, 233, 236), 0 0 40px rgb(246, 240, 247);
+}
+.d{
+    margin-left: 35px;
+    margin-right: 35px;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow:  0 0 5px rgb(79, 251, 6),0 0 10px rgb(84, 237, 64), 0 0 20px rgb(124, 236, 27), 0 0 40px rgb(71, 216, 45);
+}
+.aa{
+    margin-left: 100px;
+    margin-right: 50px;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow:  0 0 5px rgb(214, 6, 251),0 0 10px rgb(222, 64, 237), 0 0 20px rgb(211, 27, 236), 0 0 40px rgb(202, 45, 216);
+
+}
+.bb{
+    margin-left: 100px;
+    margin-right: 35px;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow:  0 0 5px rgb(6, 251, 247),0 0 10px rgb(64, 237, 237), 0 0 20px rgb(27, 236, 218), 0 0 40px rgb(45, 182, 216);
+}
+.cc{
+    margin-left: 100px;
+    margin-right: 50px;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow:  0 0 5px rgb(251, 104, 6),0 0 10px rgb(237, 145, 64), 0 0 20px rgb(236, 97, 27), 0 0 40px rgb(216, 136, 45);
+}
+
+.yeah{
+    margin-left: 35px;
+    margin-right: 35px;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow:  0 0 5px rgb(244, 243, 244),0 0 10px rgb(251, 249, 251), 0 0 20px rgb(236, 233, 236), 0 0 40px rgb(246, 240, 247);
+}
+footer{
+    position: absolute;
+    top: 2330px;
+    left: 15px;
+    width:1480px;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 10px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
